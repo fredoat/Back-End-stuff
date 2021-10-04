@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path')
 const { v4: uuid } = require('uuid')
+const methodOverride = require('method-override')
+//not installed just for referal//
 
 
 app.use(express.urlencoded({ extended: true }))
